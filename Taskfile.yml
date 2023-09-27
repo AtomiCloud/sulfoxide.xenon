@@ -1,0 +1,30 @@
+version: "3"
+
+env:
+  RELEASE_NAME: metric-server
+
+includes:
+  pichu:opal:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: pichu
+      CLUSTER: opal
+
+tasks:
+  # Utility
+  start:cluster:
+    desc: Starts the playground cluster to test helm charts
+    cmds:
+      - ./scripts/local/create-k3d-cluster.sh
+
+  stop:cluster:
+    desc: Destroys the playground cluster to test helm charts
+    cmds:
+      - ./scripts/local/delete-k3d-cluster.sh
+
+  # Helm Operations
+  update:
+    desc: Update Helm dependencies
+    dir: chart
+    cmds:
+      - helm dependency update

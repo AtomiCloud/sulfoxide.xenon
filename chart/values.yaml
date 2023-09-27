@@ -1,0 +1,31 @@
+serviceTree:
+  landscape: pichu
+  cluster: opal
+  platform: systems
+  service: metrics-server
+  layer: "1"
+
+metrics-server:
+  topologySpreadConstraints:
+    - maxSkew: 1
+      topologyKey: "topology.kubernetes.io/zone"
+      whenUnsatisfiable: ScheduleAnyway
+      labelSelector:
+        matchLabels:
+          atomi.cloud/platform: systems
+          atomi.cloud/service: metrics-server
+          atomi.cloud/module: operator
+  commonLabels:
+    atomi.cloud/landscape: pichu
+    atomi.cloud/cluster: opal
+    atomi.cloud/platform: systems
+    atomi.cloud/service: metrics-server
+    atomi.cloud/module: operator
+    atomi.cloud/layer: "1"
+  podAnnotations:
+    atomi.cloud/landscape: pichu
+    atomi.cloud/cluster: opal
+    atomi.cloud/platform: systems
+    atomi.cloud/service: metrics-server
+    atomi.cloud/module: operator
+    atomi.cloud/layer: "1"
