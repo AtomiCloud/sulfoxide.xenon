@@ -1,9 +1,10 @@
 version: "3"
 
 env:
-  RELEASE_NAME: metric-server
+  RELEASE_NAME: sulfoxide-xenon
 
 includes:
+  util: tasks/Taskfile.util.yaml
   pichu:opal:
     taskfile: tasks/Taskfile.cluster.yaml
     vars:
@@ -28,3 +29,12 @@ tasks:
     dir: chart
     cmds:
       - helm dependency update
+
+  latest:
+    desc: Get the latest version of Cert Manager
+    cmds:
+      - task: util:latest
+        vars:
+          REPO_NAME: metrics-server
+          REPO_URL: https://kubernetes-sigs.github.io/metrics-server/
+          CHART_NAME: metrics-server

@@ -1,10 +1,10 @@
 apiVersion: v2
-name: atomi-metrics-server
+name: sulfoxide-xenon
 description: Metrics Server
 type: application
 version: 1.0.1
-appVersion: "3.10.0"
+appVersion: "3.11.0"
 dependencies:
   - name: metrics-server
-    version: 3.10.0
+    version: 3.11.0
     repository: "https://kubernetes-sigs.github.io/metrics-server/"

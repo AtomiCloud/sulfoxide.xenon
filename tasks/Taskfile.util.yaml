@@ -1,0 +1,10 @@
+version: "3"
+
+tasks:
+  latest:
+    internal: true
+    desc: Get the latest version of a Helm Chart
+    cmds:
+      - helm repo add {{.REPO_NAME}} {{.REPO_URL}}
+      - helm repo update
+      - helm search repo {{.REPO_NAME}}/{{.CHART_NAME}} --versions --max-col-width=0 | grep {{.REPO_NAME}}/{{.CHART_NAME}} | head -n 1 | awk '{print $2}'
