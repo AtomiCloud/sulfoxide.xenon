@@ -1,31 +1,29 @@
+# -- AtomiCloud Service Tree. See [ServiceTree](https://atomicloud.larksuite.com/wiki/OkfJwTXGFiMJkrk6W3RuwRrZs64?theme=DARK&contentTheme=DARK#MHw5d76uDo2tBLx86cduFQMRsBb)
 serviceTree:
-  landscape: pichu
-  cluster: opal
-  platform: systems
-  service: metrics-server
-  layer: "1"
+  platform: &platform sulfoxide
+  service: &service xenon
+  module: &module operator
+  layer: &layer "1"
 
+# -- Kubernetes labels and annotations, following Service Tree
+tags: &tags
+  atomi.cloud/platform: *platform
+  atomi.cloud/service: *service
+  atomi.cloud/module: *module
+  atomi.cloud/layer: *layer
+
+# -- Metrics Server Configuration. See the [Helm Chart documentation](https://kubernetes-sigs.github.io/metrics-server/)
 metrics-server:
+  serviceMonitor:
+    enabled: true
   topologySpreadConstraints:
     - maxSkew: 1
       topologyKey: "topology.kubernetes.io/zone"
       whenUnsatisfiable: ScheduleAnyway
       labelSelector:
         matchLabels:
-          atomi.cloud/platform: systems
-          atomi.cloud/service: metrics-server
-          atomi.cloud/module: operator
+          <<: *tags
   commonLabels:
-    atomi.cloud/landscape: pichu
-    atomi.cloud/cluster: opal
-    atomi.cloud/platform: systems
-    atomi.cloud/service: metrics-server
-    atomi.cloud/module: operator
-    atomi.cloud/layer: "1"
+    <<: *tags
   podAnnotations:
-    atomi.cloud/landscape: pichu
-    atomi.cloud/cluster: opal
-    atomi.cloud/platform: systems
-    atomi.cloud/service: metrics-server
-    atomi.cloud/module: operator
-    atomi.cloud/layer: "1"
+    <<: *tags
