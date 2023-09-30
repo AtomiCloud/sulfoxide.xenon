@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.1.0...v1.1.1) (2023-09-30)
+
+
+### 🐛 Bug Fixes
+
+* Taskfile latest incorrect description ([f43b71b](https://github.com/AtomiCloud/sulfoxide.xenon/commit/f43b71b39b02e1fcbe0be1cbbf24c4a1e5b9f3f8))
+
 ## [1.1.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.0.1...v1.1.0) (2023-09-28)
 
 
