@@ -8,23 +8,23 @@ tasks:
       - helm dependency update
       - helm template $RELEASE_NAME . --debug --values values.yaml --values values.{{.LANDSCAPE}}.{{.CLUSTER}}.yaml {{.CLI_ARGS}}
 
-  render:
+  template:
     desc: Render the helm chart
     dir: chart
     cmds:
       - helm dependency update
       - >-
         helm template $RELEASE_NAME . --values values.yaml --values values.{{.LANDSCAPE}}.{{.CLUSTER}}.yaml 
-        {{.CLI_ARGS}} > rendered/{{.LANDSCAPE}}/{{.CLUSTER}}/manifest.yaml
+        {{.CLI_ARGS}}
 
   install:
     desc: Installs the chart
     dir: chart
     cmds:
       - helm dependency update
-      - helm upgrade --kube-context {{.LANDSCAPE}}-{{.CLUSTER}} --install $RELEASE_NAME . --values values.yaml --values values.{{.LANDSCAPE}}.{{.CLUSTER}}.yaml {{.CLI_ARGS}}
+      - helm upgrade --install $RELEASE_NAME . --values values.yaml --values values.{{.LANDSCAPE}}.{{.CLUSTER}}.yaml {{.CLI_ARGS}}
 
   remove:
     desc: Removes an installed release
     cmds:
-      - helm uninstall --kube-context {{.LANDSCAPE}}-{{.CLUSTER}} $RELEASE_NAME
+      - helm uninstall $RELEASE_NAME
