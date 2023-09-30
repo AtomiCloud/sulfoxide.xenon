@@ -31,7 +31,7 @@ tasks:
       - helm dependency update
 
   latest:
-    desc: Get the latest version of Cert Manager
+    desc: Get the latest version of Metric Server
     cmds:
       - task: util:latest
         vars:
