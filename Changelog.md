@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.1.1...v1.1.2) (2023-09-30)
+
+
+### 🐛 Bug Fixes
+
+* change cluster render to cluster template ([4312f29](https://github.com/AtomiCloud/sulfoxide.xenon/commit/4312f293c516710b647ec713283a1b389b97e38a))
+
 ## [1.1.1](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.1.0...v1.1.1) (2023-09-30)
 
 
