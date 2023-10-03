@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.1.2...v1.2.0) (2023-10-03)
+
+
+### 🚀 New Features
+
+* **entei:** initial values.yaml ([4d95bde](https://github.com/AtomiCloud/sulfoxide.xenon/commit/4d95bded69d56d7aca911456291886a1674c10ff))
+
 ## [1.1.2](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.1.1...v1.1.2) (2023-09-30)
 
 
