@@ -1,0 +1,18 @@
+serviceTree:
+  landscape: &landscape entei
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+
+metrics-server:
+  topologySpreadConstraints:
+    - maxSkew: 1
+      topologyKey: "topology.kubernetes.io/zone"
+      whenUnsatisfiable: ScheduleAnyway
+      labelSelector:
+        matchLabels:
+          <<: *tags
+  commonLabels:
+    <<: *tags
+  podAnnotations:
+    <<: *tags
