@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.3.0...v1.3.1) (2023-10-04)
+
+
+### 🐛 Bug Fixes
+
+* entei:opal Taskfile ([5867fde](https://github.com/AtomiCloud/sulfoxide.xenon/commit/5867fde86b3c1b9319fbdccfd0e824b10cb98a52))
+
 ## [1.3.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.2.0...v1.3.0) (2023-10-04)
 
 
