@@ -5,10 +5,10 @@ env:
 
 includes:
   util: tasks/Taskfile.util.yaml
-  pichu:opal:
+  entei:opal:
     taskfile: tasks/Taskfile.cluster.yaml
     vars:
-      LANDSCAPE: pichu
+      LANDSCAPE: entei
       CLUSTER: opal
 
 tasks:
