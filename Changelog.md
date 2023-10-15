@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.3.1...v1.4.0) (2023-10-15)
+
+
+### 🚀 New Features
+
+* pichu ([b8b936d](https://github.com/AtomiCloud/sulfoxide.xenon/commit/b8b936dde780a8cf4ef537d30d1bf1e8cc94774a))
+
 ## [1.3.1](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.3.0...v1.3.1) (2023-10-04)
 
 
