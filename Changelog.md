@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.4.0...v1.5.0) (2023-10-25)
+
+
+### 🚀 New Features
+
+* pikachu and raichu value files ([2916eba](https://github.com/AtomiCloud/sulfoxide.xenon/commit/2916eba64b64598bbd395044c53619a7c9276c4f))
+
 ## [1.4.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.3.1...v1.4.0) (2023-10-15)
 
 
