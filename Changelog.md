@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.5.0...v1.6.0) (2023-11-18)
+
+
+### 🚀 New Features
+
+* ruby values ([220d63c](https://github.com/AtomiCloud/sulfoxide.xenon/commit/220d63cf9ee2f80b7df3c0196016db33cb5e161e))
+
 ## [1.5.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.4.0...v1.5.0) (2023-10-25)
 
 
