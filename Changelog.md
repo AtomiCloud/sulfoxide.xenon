@@ -1,3 +1,17 @@
+## [1.7.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.6.0...v1.7.0) (2024-02-08)
+
+
+### 🚀 New Features
+
+* onyx cluster ([7808bb4](https://github.com/AtomiCloud/sulfoxide.xenon/commit/7808bb424cab72a7ed30dbfe8d5c94809d714775))
+
+
+### 🐛 Bug Fixes
+
+* incorrect release ([a6a0e28](https://github.com/AtomiCloud/sulfoxide.xenon/commit/a6a0e28784f430530c46d46d8a65351d7fc5315a))
+* releaser ([e2dcfa0](https://github.com/AtomiCloud/sulfoxide.xenon/commit/e2dcfa087f1e7d5373a4af92936be3a91cffc990))
+* remove topologySpreadConstraints from landscape values ([03892b3](https://github.com/AtomiCloud/sulfoxide.xenon/commit/03892b3ce3328cf27269aca81717717075abd148))
+
 ## [1.6.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.5.0...v1.6.0) (2023-11-18)
 
 
