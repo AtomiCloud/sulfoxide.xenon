@@ -3,8 +3,8 @@ name: sulfoxide-xenon
 description: Metrics Server
 type: application
 version: 1.7.0
-appVersion: "3.11.0"
+appVersion: "3.12.1"
 dependencies:
   - name: metrics-server
-    version: 3.11.0
+    version: 3.12.1
     repository: "https://kubernetes-sigs.github.io/metrics-server/"
