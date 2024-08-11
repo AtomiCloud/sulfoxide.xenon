@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.8.0...v1.9.0) (2024-08-11)
+
+
+### 🚀 New Features
+
+* new values file for pichu, pikachu & raichu under topaz & amber ([3884073](https://github.com/AtomiCloud/sulfoxide.xenon/commit/3884073db358f5dd3da4c8fd18af48555264b2fb))
+
 ## [1.8.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.7.0...v1.8.0) (2024-08-11)
 
 
