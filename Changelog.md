@@ -1,3 +1,10 @@
+## [1.8.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.7.0...v1.8.0) (2024-08-11)
+
+
+### 📦 Upstreams Changes
+
+* upgrade nix, helm upstream, GHA ([2995495](https://github.com/AtomiCloud/sulfoxide.xenon/commit/299549510159ca0487e1ff0a953cb26fd12e740f))
+
 ## [1.7.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.6.0...v1.7.0) (2024-02-08)
 
 

@@ -2,7 +2,7 @@ apiVersion: v2
 name: sulfoxide-xenon
 description: Metrics Server
 type: application
-version: 1.7.0
+version: 1.8.0
 appVersion: "3.12.1"
 dependencies:
   - name: metrics-server
