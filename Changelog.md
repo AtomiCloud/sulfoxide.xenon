@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.9.0...v1.10.0) (2024-08-17)
+
+
+### 🚀 New Features
+
+* configure opal-ruby for infisical ([8541c2a](https://github.com/AtomiCloud/sulfoxide.xenon/commit/8541c2a2308a322ae7e86ea220bc73fb66d02ac8))
+
 ## [1.9.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.8.0...v1.9.0) (2024-08-11)
 
 
