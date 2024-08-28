@@ -1,3 +1,10 @@
+## [1.11.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.10.0...v1.11.0) (2024-08-28)
+
+
+### 🚀 New Features
+
+* values for mica & talc ([3fdc214](https://github.com/AtomiCloud/sulfoxide.xenon/commit/3fdc2148e207964dd1ee8905e86418eaef036f5a))
+
 ## [1.10.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.9.0...v1.10.0) (2024-08-17)
 
 
