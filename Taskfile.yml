@@ -1,4 +1,4 @@
-version: "3"
+version: '3'
 
 env:
   RELEASE_NAME: sulfoxide-xenon
@@ -10,6 +10,11 @@ includes:
     vars:
       LANDSCAPE: entei
       CLUSTER: opal
+  suicune:opal-ruby:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: suicune
+      CLUSTER: opal-ruby
 
 tasks:
   # Utility

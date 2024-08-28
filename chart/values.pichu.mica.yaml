@@ -1,0 +1,13 @@
+serviceTree:
+  landscape: &landscape pichu
+  cluster: &cluster mica
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+  atomi.cloud/cluster: *cluster
+
+metrics-server:
+  commonLabels:
+    <<: *tags
+  podAnnotations:
+    <<: *tags

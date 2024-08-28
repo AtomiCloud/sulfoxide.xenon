@@ -1,0 +1,13 @@
+serviceTree:
+  landscape: &landscape entei
+  cluster: &cluster talc
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+  atomi.cloud/cluster: *cluster
+
+metrics-server:
+  commonLabels:
+    <<: *tags
+  podAnnotations:
+    <<: *tags
