@@ -15,6 +15,11 @@ includes:
     vars:
       LANDSCAPE: suicune
       CLUSTER: opal-ruby
+  suicune:mica-talc:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: suicune
+      CLUSTER: mica-talc
 
 tasks:
   # Utility

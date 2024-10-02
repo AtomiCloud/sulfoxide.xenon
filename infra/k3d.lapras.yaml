@@ -16,5 +16,5 @@ ports:
 registries:
   create:
     name: lapras.registry.lvh.me
-    host: "0.0.0.0"
-    hostPort: "20012"
+    host: '0.0.0.0'
+    hostPort: '20012'

@@ -1,6 +1,6 @@
 serviceTree:
   landscape: &landscape suicune
-  cluster: &cluster opal-ruby
+  cluster: &cluster mica-talc
 
 tags: &tags
   atomi.cloud/landscape: *landscape
