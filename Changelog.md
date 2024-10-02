@@ -1,3 +1,10 @@
+## [1.12.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.11.0...v1.12.0) (2024-10-02)
+
+
+### 📦 Upstreams Changes
+
+* **atominix:** ugrading to 28.0.0 ([795afd7](https://github.com/AtomiCloud/sulfoxide.xenon/commit/795afd72ffed99205731b8e52a63b44c7c3aa46e))
+
 ## [1.11.0](https://github.com/AtomiCloud/sulfoxide.xenon/compare/v1.10.0...v1.11.0) (2024-08-28)
 
 
